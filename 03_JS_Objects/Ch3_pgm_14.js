@@ -10,6 +10,12 @@ var questionAndAnswer = {
 	marksForQuestion: 2
 };
 
+console.log(questionAndAnswer.question)
+console.log("option (a) " + questionAndAnswer.answer1)
+console.log("option (b) " + questionAndAnswer.answer2)
+console.log("option (c) " + questionAndAnswer.answer3)
+console.log("option (d) " + questionAndAnswer.answer4)
+
 
 
 /* Further Adventures
