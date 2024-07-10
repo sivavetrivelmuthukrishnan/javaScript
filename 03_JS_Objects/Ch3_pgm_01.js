@@ -10,6 +10,8 @@ console.log(bookTitle + " by " + bookAuthor);
 
 
 
+
+
 /* Further Adventures
  *
  * 1) Declare variables for a second book
