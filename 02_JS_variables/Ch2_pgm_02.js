@@ -22,3 +22,15 @@ score=1000;
  *    Repeat steps 1, 2 and 3.
  *
  */
+
+/*Answer*/
+
+var price;
+price=100;
+console.log(price);
+var age;
+age=22;
+var marks;
+marks=77;
+console.log("age = "+age);
+console.log("marks = "+marks);
