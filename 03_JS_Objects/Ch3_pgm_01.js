@@ -9,6 +9,10 @@ bookAuthor = "J. R. R. Tolkien";
 console.log(bookTitle + " by " + bookAuthor);
 
 
+var bookTitle2 = "There and Back Again";
+var bookAuthor2 = "Janathon";
+
+console.log(bookTitle2 +" by "+bookAuthor2);
 
 
 
