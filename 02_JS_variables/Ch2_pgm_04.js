@@ -29,3 +29,12 @@ console.log(score);
  *    the new value of your variable.
  *
  */
+
+
+/* Answer */
+var score2;
+score2=444;
+console.log("The 2nd Score = "+ score2);
+
+score2=432;
+console.log("The 2nd Score = "+ score2);
