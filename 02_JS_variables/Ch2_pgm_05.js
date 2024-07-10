@@ -25,3 +25,10 @@ console.log(message);
  *    Be careful to use matching speech marks.
  *
  */
+
+/* Answer */
+var massege1;
+massege1 = "Hello " + "World!"
+console.log(massege1);
+massege1 = "Congratulations! " + "your " + "tweet has won a prize..."
+console.log(massege1);
