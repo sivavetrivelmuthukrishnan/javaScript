@@ -9,7 +9,19 @@ var location = {
     "longitude" : -122.418,
     "elevation" : 47.000
   };
-  
+  console.log(location);
+
+  var geolocation = {
+    "city"  : "Coimbatore",
+    "state" : "Tamil Nadu",
+    "cpontry" : "India",
+    "zip" : 641113,
+    "latitude"  : 37.775,
+    "longitude" : -122.418,
+    "elevation" : 47.000
+  }
+  console.log(geolocation);
+  console.log(geolocation.city);
   
   
   /* Further Adventures
