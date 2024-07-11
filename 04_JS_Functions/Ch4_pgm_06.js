@@ -10,6 +10,12 @@ sayHello();
 sayHello();
 sayHello();
 
+var hello;
+hello = function () {
+	console.log("H\ne\nl\nl\n\nW\no\nr\nl\nd")
+}
+hello();
+
 
 
 /* Further Adventures

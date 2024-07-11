@@ -40,8 +40,44 @@ showMovieInfo();
 
 movie = movie3;
 showMovieInfo();
+var quiz;
+var quiz1;
+var quiz2;
+var quiz3;
 
+quiz1 = {
+    question : "Who won 2024 t20 cricket cup ?",
+    Option1 : "India",
+    Option2 : "SA",
+    Option3 : "WI",
+    Option4 : "Aus",
 
+}
+
+quiz2 = {
+    question : "Who was runner up in 2024 t20 cricket cup ?",
+    Option1 : "India",
+    Option2 : "SA",
+    Option3 : "WI",
+    Option4 : "Aus",
+
+}
+
+quizinfo = function() {
+    console.log("Multiple choice qutions  ");
+    console.log("Question " + quiz.question);
+    console.log("(option 1) " + quiz.Option1);
+    console.log("(option 2) " + quiz.Option2);
+    console.log("(option 3) " + quiz.Option3);
+    console.log("(option 4) " + quiz.Option4);
+
+   
+}
+quiz = quiz1;
+quizinfo()
+
+quiz = quiz2;
+quizinfo()
 
 /* Further Adventures
  *

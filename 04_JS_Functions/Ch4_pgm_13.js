@@ -4,6 +4,8 @@ var player1;
 var player2;
 var player;
 var showPlayerInfo;
+var showPlayerPlace;
+var showPlayerHealth;
 
 player1 = {
     name: "Kandra",
@@ -17,20 +19,28 @@ player2 = {
     health: 40
 };
 
+showPlayerHealth = function() {
+    console.log(player.name + " has health " + player.health);
+}
+
+showPlayerPlace = function() {
+    console.log(player.name + " is in " + player.place)
+}
+
 showPlayerInfo = function () {
     console.log(player.name);
     console.log("------------------------------");
-    console.log(player.name + " is in " + player.place);
-    console.log(player.name + " has health " + player.health);
+    showPlayerPlace();
+    showPlayerHealth();
     console.log("------------------------------");
     console.log("");
 };
-
 player = player1;
-showPlayerInfo();
+showPlayerInfo();;
 
 player = player2;
 showPlayerInfo();
+
 
 
 
