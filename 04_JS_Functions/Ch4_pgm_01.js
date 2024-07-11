@@ -7,6 +7,12 @@ movie1 = {
   actors: "Amy Poehler, Bill Hader",
   directors: "Pete Doctor, Ronaldo Del Carmen"
 };
+var movie2;
+movie2 = {
+  title: "Inside Out",
+  actors: "Amy Poehler, Bill Hader",
+  directors: "Pete Doctor, Ronaldo Del Carmen"
+}; 
 
 console.log("Movie information for " + movie1.title);
 console.log("------------------------------");
