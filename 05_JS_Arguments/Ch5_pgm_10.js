@@ -5,25 +5,26 @@ var player2;
 var showPlayerHealth;
 
 showPlayerHealth = function (playerName, playerHealth, playerHealthMultiplier) {
-    console.log(playerName + " has health " + playerHealth);
+    var adjustedHealth = playerHealth * playerHealthMultiplier;
+    console.log(playerName + " has health " + adjustedHealth);
 };
 
 player1 = {
     name: "Kandra",
     place: "The Dungeon of Doom",
     health: 50,
-    healthMultiplayer  : 
+    healthMultiplayer  : 1.5
 };
 
 player2 = {
     name: "Dax",
     place: "The Old Library",
     health: 40,
-    healthMultiplayer : 
+    healthMultiplayer : 2
 };
 
-showPlayerHealth(player1.name, player1.health);
-showPlayerHealth(player2.name, player2.health);
+showPlayerHealth(player1.name, player1.health, player1.healthMultiplayer);
+showPlayerHealth(player2.name, player2.health,player2.healthMultiplayer);
 
 
 
