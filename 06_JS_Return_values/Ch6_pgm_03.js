@@ -1,9 +1,13 @@
 // Using the return value as an argument
 
 var getHelloTo;
+var template;
 
 getHelloTo = function (name) {
-    return "Hello to " + name;
+  template = "Hello to {{name}}";
+  template = template.replace("{{name}}", name);
+  return template;
+   
 };
 
 console.log(getHelloTo("Kandra"));
