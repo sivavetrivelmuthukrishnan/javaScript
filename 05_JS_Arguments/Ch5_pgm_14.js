@@ -12,12 +12,22 @@ var showPlayerPlace = function (playerName, playerPlace) {
     console.log(playerName + " is in " + playerPlace);
 };
 
-var showPlayerInfo = function (playerName, playerPlace, playerHealth) {
+
+var showLine = function (length) {
+    var line = "****************************"; // a long string of asterisks
+    console.log(line.substring(0, length));
+}
+
+var showBlankLine = function () {
     console.log("");
+};
+
+var showPlayerInfo = function (playerName, playerPlace, playerHealth) {
+    showBlankLine();
 
     showPlayerName(playerName);
 
-    console.log("----------------------------");
+   
 
     showPlayerPlace(playerName, playerPlace);
     showPlayerHealth(playerName, playerHealth);
