@@ -9,7 +9,27 @@ showSum = function (number1, number2) {
 
 showSum(30, 23);
 showSum(2.8, -5);
+showSum(56,74);
 
+var showProduct;
+showProduct = function(num1,num2) {
+	var mul = num1* num2;
+	console.log("The multiply is " + mul)
+}
+	
+
+showProduct(2,3)
+showProduct(3,4)
+showProduct(7,5)
+
+var showQuotient;
+showQuotient = function(a,b){
+	var div = a/b;
+	console.log("The value of /" + div)
+
+}
+showQuotient(4/2);
+showQuotient(10/5);
 
 
 /* Further Adventures

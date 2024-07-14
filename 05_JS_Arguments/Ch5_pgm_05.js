@@ -13,6 +13,24 @@ square(-2);
 square(1111);
 square(0.5);
 
+var cube;
+
+cube = function(numberToCube) {
+  var result;
+  result = numberToCube * numberToCube* numberToCube;
+  console.log(numberToCube +" * " + numberToCube+ " * " +numberToCube + " = " + result);
+}
+cube(1);
+cube(3);
+cube(5);
+
+var squareRoot;
+squareRoot = function(num) {
+  var result;
+  result = Math.sqrt(num);
+  console.log("The squareRoot of "+ num + "is " + result)
+}
+squareRoot(3);
 
 
 /* Further Adventures

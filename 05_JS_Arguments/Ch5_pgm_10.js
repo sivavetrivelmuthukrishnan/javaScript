@@ -4,24 +4,28 @@ var player1;
 var player2;
 var showPlayerHealth;
 
-showPlayerHealth = function (playerName, playerHealth) {
+showPlayerHealth = function (playerName, playerHealth, playerHealthMultiplier) {
     console.log(playerName + " has health " + playerHealth);
 };
 
 player1 = {
     name: "Kandra",
     place: "The Dungeon of Doom",
-    health: 50
+    health: 50,
+    healthMultiplayer  : 
 };
 
 player2 = {
     name: "Dax",
     place: "The Old Library",
-    health: 40
+    health: 40,
+    healthMultiplayer : 
 };
 
 showPlayerHealth(player1.name, player1.health);
 showPlayerHealth(player2.name, player2.health);
+
+
 
 
 
