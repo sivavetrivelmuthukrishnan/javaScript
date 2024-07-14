@@ -2,11 +2,15 @@
 
 var totalCost;
 
-totalCost = function (callOutCharge, costPerHour, numberOfHours) {
-	return callOutCharge + costPerHour * numberOfHours;
+totalCost = function (callOutCharge, costPerHour, numberOfHours,discount) {
+	return callOutCharge + costPerHour * numberOfHours-discount;
 };
 
-console.log("$" + totalCost(30, 40, 3));
+var costFor12Hours = totalCost(30, 40, 12, 0);
+console.log("The cost for 12 hours of work is $" + costFor12Hours);
+
+var costWithDiscount = totalCost(30, 40, 3, 20);
+console.log("The total cost with a $20 off coupon for 3 hours is $" + costWithDiscount);
 
 
 
