@@ -12,17 +12,22 @@ var getPlayerPlace = function (playerName, playerPlace) {
     return playerName + " is in " + playerPlace;
 };
 
+var getPlayerItems = function (playerName, playerItems) {
+    return playerName + " has items: " + playerItems;
+};
+
 var getBorder = function () {
     return "================================";
 };
 
-var getPlayerInfo = function (playerName, playerPlace, playerHealth) {
+var getPlayerInfo = function (playerName, playerPlace, playerHealth,playerItems) {
     var playerInfo;
 
     playerInfo = "\n" + getPlayerName(playerName);
     playerInfo += "\n" + getBorder();
     playerInfo += "\n" + getPlayerPlace(playerName, playerPlace);
     playerInfo += "\n" + getPlayerHealth(playerName, playerHealth);
+    playerInfo += "\n" + getPlayerItems(playerName, playerItems);
     playerInfo += "\n" + getBorder();
     playerInfo += "\n";
 
