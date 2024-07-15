@@ -27,6 +27,7 @@ console.log(getPlanetInfo(planet2));
 
 
 
+
 /* Further Adventures
  *
  * 1) Write a similar program to create and
