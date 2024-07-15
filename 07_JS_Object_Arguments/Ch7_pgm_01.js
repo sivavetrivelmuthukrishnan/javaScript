@@ -11,11 +11,21 @@ planet1 = {
     sizeRank: 1
 };
 
+var planet2 = {
+    name: "Siva",
+    position: 7,
+    type: "HR",
+    radius: 641113,
+    sizeRank: 7
+
+}
+
 getPlanetInfo = function (planet) {
     return planet.name + ": planet number " + planet.position;
 };
 
 console.log(getPlanetInfo(planet1));
+console.log(getPlanetInfo(planet2));
 
 
 
