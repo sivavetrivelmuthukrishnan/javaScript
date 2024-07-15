@@ -3,10 +3,19 @@
 var getPlayerName;
 
 getPlayerName = function (playerName) {
-    return playerName;
+   var Name = "=====" + playerName + "===="
+   var name_b = "\b"  + playerName + "\b"
+
+
+return {
+    Name :Name,
+    name_b : name_b
+}
 };
 
-console.log(getPlayerName("Kandra"));
+
+console.log(getPlayerName("Kandra").name_b);
+console.log(getPlayerName("Kandra").Name);
 
 
 
