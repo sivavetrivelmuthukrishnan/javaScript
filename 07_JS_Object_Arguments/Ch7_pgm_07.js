@@ -6,6 +6,17 @@ var bigPlanet = planet.toUpperCase();
 console.log(planet + " becomes " + bigPlanet);
 
 
+var lower = function(HELLO) {
+    console.log(HELLO.toLowerCase())
+}
+lower("SIVA")
+
+var upper = function (siva) {
+    console.log(siva.toUpperCase())
+    
+}
+upper("raju")
+
 
 /* Further Adventures
  *
