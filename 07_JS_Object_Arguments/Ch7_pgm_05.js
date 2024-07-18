@@ -10,6 +10,20 @@ var showSmaller = function (num1, num2) {
 showSmaller(12, 3);
 showSmaller(-10, 3);
 
+var showLarger = function(n1,n2) {
+    var large = Math.max(n1,n2)
+    console.log(large + " is the larger than " + n1 + ", " + n2);
+}
+
+showLarger(12,3)
+showLarger(7,5)
+
+var showSmaller = function(n1,n2,n3) {
+    var small = Math.min(n1,n2,n3)
+    console.log(small + " is the smallest among " + n1 + ", " + n2 + ", and " + n3);
+}
+showSmaller(12,3,4)
+
 
 
 /* Further Adventures
